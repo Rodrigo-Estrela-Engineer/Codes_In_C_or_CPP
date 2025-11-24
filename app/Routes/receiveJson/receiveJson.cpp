@@ -3,7 +3,7 @@
 #include "app/Controllers/receiveController.cpp"
 using namespace std;
 
-void setupMessages(crow::SimpleApp& app)
+crow::response setupMessages(crow::SimpleApp& app)
 {
     CROW_ROUTE(app, "/receive").methods("POST"_method)(
 {
