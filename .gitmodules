@@ -7,3 +7,6 @@
 [submodule "app/asio"]
 	path = app/asio
 	url = https://github.com/chriskohlhoff/asio.git
+[submodule "app/cpp-dotenv"]
+	path = app/cpp-dotenv
+	url = https://github.com/adeharo9/cpp-dotenv.git
