@@ -1,10 +1,7 @@
-# Codes_In_C_or_CPP
 
-Este repositório serve como um espaço dedicado ao meu desenvolvimento contínuo como estudante de Engenharia da Computação. O objetivo é exercitar minha lógica de programação enquanto exploro e aprofundo meus conhecimentos nas linguagens C e C++, aplicando conceitos teóricos da faculdade em projetos práticos e modernos.
 
----
 
-## Projeto Principal: Simple API (Segurança e Comunicação)
+## Projeto Principal: SecureRequest Gateway (Segurança e Comunicação)
 
 Este é um projeto focado na criação de uma API que atua em **segurança e comunicação entre sistemas**.
 
