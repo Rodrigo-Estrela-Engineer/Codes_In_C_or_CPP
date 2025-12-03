@@ -1,6 +1,6 @@
 #include <iostream>
 #include "crow.h"
-#include "./Routes.hpp"
+#include "./requestAccess.hpp"
 #include <stdexcept>
 
 using namespace std;
@@ -13,9 +13,7 @@ void mainRoute(crow::SimpleApp& app)
             return "Voce esta na inicial";
         }
         catch(const exception& e){
-            runtime_error("Erro ao carregar a página.");
-            throw("Erro ao carregar a página.");
-            cout << "Erro ao carregar a página." << endl;
+            cerr << "erro ao carregar a página: " << e.what() << endl;
             return "Erro ao carregar a página";
         }
     });
