@@ -2,6 +2,7 @@
 #include "crow.h"
 #include <fstream>
 #include "./Routes/requestAccess/requestAccess.hpp"
+#include "./Middlewares/Auth/Auth.h"
 using namespace std;
 
 
